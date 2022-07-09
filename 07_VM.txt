@@ -1,0 +1,6 @@
+rmitab cron
+rmitab clcomd
+rmitab naudio2
+rmitab pfcdaemon
+stopsrc -s clcomd
+stopsrc -s pfcdaemon
