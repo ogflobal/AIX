@@ -3,8 +3,11 @@ cd /sbin/helpers/jfs2
 > fsck64
 
 vi fsck64
+
 #!/bin/ksh
 exit 0
+
+:wq!
 
 sync; sync
 halt
