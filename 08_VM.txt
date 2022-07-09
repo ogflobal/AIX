@@ -4,3 +4,4 @@ cd  /mnt/installp/ppc
 cp  openssh*  /tmp/ssh_install
 cd  /tmp/ssh_install
 installp -acgXYd . openssh.base openssh.license openssh.man.en_US openssh.msg.en_US
+lssrc  -s  sshd
