@@ -1,0 +1,10 @@
+export TERM=vt100
+cd /sbin/helpers/jfs2
+> fsck64
+
+vi fsck64
+#!/bin/ksh
+exit 0
+
+sync; sync
+halt
