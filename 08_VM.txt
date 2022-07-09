@@ -1,0 +1,6 @@
+mount  -v  cdrfs  -o  ro  /dev/cd0  /mnt
+mkdir   /tmp/ssh_install
+cd  /mnt/installp/ppc
+cp  openssh*  /tmp/ssh_install
+cd  /tmp/ssh_install
+installp -acgXYd . openssh.base openssh.license openssh.man.en_US openssh.msg.en_US
